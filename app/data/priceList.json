@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Продукт 1",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 10
+    }, {
+        "id": 2,
+        "name": "Продукт 2",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 20  
+    }, {
+        "id": 3,
+        "name": "Продукт 3",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 4,
+        "name": "Продукт 4",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 40
+    }, {
+        "id": 5,
+        "name": "Продукт 5",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 50 
+    }, {
+        "id": 6,
+        "name": "Продукт 6",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 60 
+    }, {
+        "id": 7,
+        "name": "Продукт 7",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 70
+    }, {
+        "id": 8,
+        "name": "Продукт 8",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 80  
+    }, {
+        "id": 9,
+        "name": "Продукт 9",
+        "img": "app/data/img/product.svg",
+        "advantage": "Lorem ipsum dolor sit amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 90  
+    }
+]

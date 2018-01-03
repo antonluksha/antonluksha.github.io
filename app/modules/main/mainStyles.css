@@ -1,0 +1,58 @@
+owl-carousel {
+    z-index: inherit;
+}
+.owl-nav > div {
+    position: absolute;
+    width: 15%;
+    top: 0;
+    height: 100%;
+}
+
+.owl-prev {
+    left: 0;
+}
+.owl-prev:hover {
+    cursor: url(/img/prev-light.png), w-resize !important; 
+}
+.owl-next {
+    right: 0;
+}
+.owl-next:hover {
+    cursor: url(/img/next-light.png), e-resize !important;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.owl-dot {
+    display: inline-block;
+    padding: 0 10px;
+    opacity: .55;
+}
+
+.owl-dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    transition: background-color 0.25s;
+}
+
+.owl-dot.active span {
+    background: #7afa92;
+    content: "";
+}
+
+/*===========text============*/
+
+.item {
+    height: 600px;
+    background: #ffc400;
+}

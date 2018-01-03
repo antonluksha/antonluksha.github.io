@@ -1,0 +1,9 @@
+footer {
+  background-color: #005187;
+	height: 200px;
+  color:white;
+}
+
+  footer h1 { 
+    padding-top: 20px!important;
+  }

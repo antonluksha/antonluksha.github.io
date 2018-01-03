@@ -1,0 +1,29 @@
+<section class="container">
+    <h2>Маски для лица</h2>
+    <p>
+        <span>Поиск</span>
+        <input ng-model="priceSearch" type="text" class="form-control">
+    </p>
+
+    <div class="priceList">
+        <div class="product" ng-repeat="product in priceList | filter:priceSearch">
+            <a href="/products/masks/id/{{product.id}}">
+                <img src="{{product.img}}" alt="{{product.name}}">
+                <h4>{{product.name}}</h4>
+                <p>{{product.advantage}}</p>
+                </a>
+                <hr>
+                <p>{{product.price| currency}}</p>
+                <form ng-controller="cartController">
+                    <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>
+                    <button class="btn btn-outline-primary" type="button" ng-click="addToCart(product.id)">Добавить в корзину</button>  
+                </form>
+            
+        </div>
+<div ng-hide="priceList" class="alert alert-danger">При загрузке данных произошла ошибка {{requestStatus}} {{requestStatusText}}</div>
+    </div>
+</section>
+
+
+
+

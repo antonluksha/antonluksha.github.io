@@ -1,0 +1,51 @@
+<div class="container row">
+
+
+    <div class="priceListView col-sm-3">
+        <h5><a href="/products">Список товаров:</a></h5>
+        <ul ng-repeat="product in priceList">
+            <li><a href="/products/masks/id/{{product.id}}">{{product.name}}</a></li>
+        </ul>
+
+    </div>
+
+    <div class="productView col-sm-9">
+        <h2> {{ productView.name }} </h2>
+        <img src="{{ productView.img }}" alt="{{ productView.name }}">
+        <p>{{ productView.advantage }}</p>
+        <p>{{ productView.description }}</p>
+        <hr>
+        <p>{{productView.price| currency}}</p>
+        
+        <p ng-controller="cartController">
+           <button class="btn btn-outline-success orderProduct-link" href="#orderProduct">Заказать</button>
+            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>
+            <button class="btn btn-outline-primary" type="button" ng-click="addToCart(productView.id)">Добавить в корзину {{ productView.name }}</button>
+        </p>
+    </div>
+
+    <div class="modals">
+
+        <div id="orderProduct">
+            <h2>Оформление заказа</h2>
+            <h3>Заполните контактные данные для оформления заказа:</h3>
+            <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." required/>
+            <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required/>
+            <input type="text" name="address" data-wi-fb-caption="Адрес" placeholder="Ваш Адрес..." required/>
+            <textarea name="message" maxlength="500" data-wi-fb-caption="Коментарий" placeholder="Коментарий..."></textarea>
+            <h5>Укажите колличество: </h5>
+            <div class="orderList">
+                <input ng-model="productViewNum" type="number" data-wi-fb-caption="Количество" min="1" max="99" placeholder="0" pattern="^[1-9]\d*$" required>
+                
+                <input type="text" name="cartProduct" data-wi-fb-caption="id: {{ productView.id }}" value="{{ productView.name }} x {{ productViewNum }}" readonly>
+            </div>
+            <hr>
+            <Span>Стоимость заказа:</Span><input type="text" name="cartPrice" data-wi-fb-caption="Стоимость заказа: " value="{{ productViewNum * productView.price | currency }}" readonly>
+            <button>Заказать</button>
+        </div>
+
+
+    </div>
+
+
+</div>
