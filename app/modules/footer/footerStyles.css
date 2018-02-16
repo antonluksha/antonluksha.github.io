@@ -1,7 +1,8 @@
 footer {
-  background-color: #005187;
-	height: 200px;
-  color:white;
+  background-color: #fff;
+    height: 200px;
+    padding: 100px;
+  color:#212121;
 }
 
   footer h1 { 

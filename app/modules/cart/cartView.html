@@ -1,79 +1,91 @@
 <div class="container table-responsive-sm">
-    <h2>Корзина</h2>
-     <table class="table table-striped table-hover">
-            <thead class="thead-dark">
-                <tr>
-                    <th scope="col">№</th>
-                    <th scope="col">Изображение</th>
-                    <th scope="col">Наименование</th>
-                    <th scope="col">Описание</th>
-                    <th scope="col">Количество</th>
-                    <th scope="col">Цена</th>
-                    <th scope="col">Удалить</th>
-                </tr>
-            </thead>
-            <tfoot>
-                <tr class="table-success"> 
-                   <th colspan="5"> 
-                       <button class="btn btn-outline-success order-link" href="#order" ng-show="cartList[0]">Оформить заказ</button>
-                       <button class="btn btn-outline-dark" ng-click="clearCart()" ng-show="cartList[0]">Очистить корзину</button>
-                       <span ng-hide="cartList[0]">Корзина пуста</span>
-                    </th>
-                    <th>
-                        <span ng-hide="cartList[0]"></span>
-                        <span ng-show="cartList[0]">Итого:</span> 
-                    </th>
-                    <th>
-                        <span ng-hide="cartList[0]"></span>
-                        <span ng-show="cartList[0]">{{ cartPrice | currency }}</span>
-                    </th>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr ng-repeat="product in cartList">
-                    <td scope="row">{{ $index + 1 }}</td>
-                    <td><img src="{{product.img}}" alt="{{ product.name }}"></td>
-                    <td>{{ product.name }}</td>
-                    <td>{{ product.advantage }}</td>
-                    <td>
-                        <input ng-model="productNum" type="number" min="1" max="99" ng-change="changeCart(product.id, productNum)" value="{{ product.number }}" pattern="^[1-9]\d*$">
-                        <span>x {{product.price | currency }}</span>
-                    </td>
-                    <td>{{ product.number * product.price | currency }}</td>
-                    <td>
-                        <button ng-click="remove(product.id)">Удалить</button>
-                    </td>
-                </tr>
+    <h2>Избранное</h2>
+    <table class="table table-hover">
+        <thead class="thead">
+            <tr>
+                <th scope="col">№</th>
+                <th scope="col">Изображение</th>
+                <th scope="col">Наименование</th>
+                <th scope="col">Описание</th>
+<!--
+                <th scope="col">Количество</th>
+                <th scope="col">Цена</th>
+-->
+                <th scope="col">Удалить</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="table">
+                <th colspan="5">
+                    <button ng-click="order()" class="btn btn-outline-success order-link" href="#order" ng-show="cartList[0]">Консультация</button>
+                    <button class="btn btn-outline-dark" ng-click="clearCart()" ng-show="cartList[0]">Очистить Избранное</button>
+                    <span ng-hide="cartList[0]">Корзина пуста</span>
+                </th>
+<!--
+                <th>
+                    <span ng-hide="cartList[0]"></span>
+                    <span ng-show="cartList[0]">Итого:</span>
+                </th>
+                <th>
+                    <span ng-hide="cartList[0]"></span>
+                    <span ng-show="cartList[0]">{{ cartPrice | currency }}</span>
+                </th>
+-->
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr ng-repeat="product in cartList">
+                <td scope="row">{{ $index + 1 }}</td>
+               
+                <td><a href="/products/masks/id/{{product.id}}"><img src="{{product.img}}" alt="{{ product.name }}"></a></td>
+                <td><a href="/products/masks/id/{{product.id}}">{{ product.name }}</a></td>
+                <td><a href="/products/masks/id/{{product.id}}">{{ product.advantage }}</a></td>
+<!--
+                <td>
+                    <input ng-model="productNum" type="number" min="1" max="99" ng-change="changeCart(product.id, productNum)" value="{{ product.number }}" pattern="^[1-9]\d*$">
+                    <span>x {{product.price | currency }}</span>
+                </td>
+                <td>{{ product.number * product.price | currency }}</td>
+-->
+                <td>
+                    <button ng-click="remove(product.id)" class="btn btn-outline-dark">Удалить</button>
+                </td>
+            </tr>
 
-            </tbody>
-        </table>
-        
-        <div class="modals">
+        </tbody>
+    </table>
 
-                    <div id="order">
-                        <h2>Оформление заказа</h2>
-                        <h3>Заполните контактные данные для оформления заказа:</h3>
-                        <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." required/>
-                        <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required/>
-                        <input type="text" name="address" data-wi-fb-caption="Адрес" placeholder="Ваш Адрес..." required/>
-                        <textarea name="message" maxlength="500" data-wi-fb-caption="Коментарий" placeholder="Коментарий..."></textarea>
-                        <h5>Список товаров в заказе: </h5>
-                        <div class="orderList" ng-repeat="product in cartList">
-                            <input type="text" name="cartProduct" data-wi-fb-caption="id: {{ product.id }}" value="{{ product.name }} x {{ product.number }} = {{ product.number * product.price | currency }}" readonly>
-                        </div>
-                        <hr>
-                         <Span>Стоимость заказа:</Span><input type="text" name="cartPrice" data-wi-fb-caption="Стоимость заказа: " value="{{ cartPrice | currency }}" readonly>
-                        <button>Заказать</button>
-                    </div>
+    <div class="modals">
 
-
+        <div id="order" class="container">
+            <div class="row">
+                <h2>Консультация</h2>
+<!--
+                <div class="col-md-6">
+                    <h5>Список товаров в заказе: </h5>
+                    <textarea data-wi-fb-caption="Заявка" ng-model="orderList" rows="{{rowCount}}" readonly></textarea>
                 </div>
-        
-    
+-->
+                <div class="col-md-6">
+                    <h5>Заполните контактные данные для консультации:</h5>
+                    <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." required/>
+                    <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required/>
+<!--                    <input type="text" name="address" data-wi-fb-caption="Адрес" placeholder="Адрес Доставки..." required/>-->
+                    <textarea name="message" maxlength="500" data-wi-fb-caption="Коментарий" placeholder="Коментарий..."></textarea>
+                </div>
+            </div>
+            <button ng-click="clearCart()">Консультация</button>
+        </div>
+
+
+    </div>
+
+
     <style>
-    img {
-    height: 64px;
+        img {
+            height: 64px;
         }
+
     </style>
-    
+
 </div>

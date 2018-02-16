@@ -42,16 +42,21 @@
         
         $scope.order = function () {
 
-            var orderList = [];
+            
+            
+             var orderListData = [];
             $scope.cartList.forEach(function (item) {
-                orderList.push('id:' + item.id + '/' + item.name + ' x' + item.number + '=' + item.number * item.price);
+                orderListData.push(item.name + ' x ' + item.number + 'шт = ' + item.number * item.price + 'р.');
             });
 
-            orderList.push('Итого = ' + $scope.cartPrice);
-            console.log(orderList);
-
-
-
+            orderListData.push('----------------------------------');
+            orderListData.push('Итого = ' + $scope.cartPrice + 'р.');
+           
+            
+            $scope.orderList = orderListData.join('\n');
+            $scope.rowCount = orderListData.length;
+            
+            
         };
 
 
@@ -64,9 +69,20 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         $scope.addToCart = function (id) {
             var sum = Number($scope.productNum);
-            if (sum > 0) {
+            if (!sum) {                                                 // sum > 0 ===========================!!!
                 $scope.cartList = cartService.readCart();
                 priceListService.getProductById(id)
                     .then(function (cartProductToAdd) {

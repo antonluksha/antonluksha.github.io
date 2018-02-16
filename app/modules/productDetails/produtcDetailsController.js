@@ -12,15 +12,6 @@
         .then(function (productView) {
                 $scope.productView = productView;
             });
-        
-         $(document).ready(function () {
-            
-            $('#orderProduct').wiFeedBack({
-                fbScript: 'blocks/wi-feedback.php',
-                fbLink: '.orderProduct-link',
-                fbColor: '#7952b3'
-            });
-        });
 
   
 });   

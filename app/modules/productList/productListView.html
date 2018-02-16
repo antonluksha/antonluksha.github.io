@@ -1,29 +1,54 @@
 <section class="container">
-    <h2>Маски для лица</h2>
-    <p>
-        <span>Поиск</span>
-        <input ng-model="priceSearch" type="text" class="form-control">
-    </p>
+    <h2 class="display-3 text-center">Маски для лица</h2>
 
-    <div class="priceList">
-        <div class="product" ng-repeat="product in priceList | filter:priceSearch">
-            <a href="/products/masks/id/{{product.id}}">
-                <img src="{{product.img}}" alt="{{product.name}}">
-                <h4>{{product.name}}</h4>
-                <p>{{product.advantage}}</p>
+   <form class="form-row m-4">
+  <div class="input-group col-8">
+    <select ng-model="priceSearch.category" class="form-control">
+            <option value=""> - Все Категории - </option>
+            <option ng-repeat="category in categorySort">{{category}}</option>
+        </select>
+  </div>
+  
+  <div class="col">
+    <input ng-model="priceSearch.$" type="text" class="form-control" placeholder="Поиск...">
+  </div>
+</form>
+
+    <div class="priceList row">
+        <div class="product col-md-4 col-sm-6 col-12 animated zoomIn" ng-repeat="product in priceList | filter: priceSearch">
+           
+           <div class="card mt-1 mb-2">
+               <a href="/products/masks/id/{{product.id}}">
+                <img src="{{product.img}}" class="card-img-top" alt="{{product.name}}">
+                <div class="card-block">
+                    
+                    <h4 class="card-title text-center">{{product.name}}</h4>
+                    <p class="card-text">{{product.advantage}}</p>
+                   
+                    
+                </div>
+                
+                
+               
+               
                 </a>
-                <hr>
-                <p>{{product.price| currency}}</p>
-                <form ng-controller="cartController">
-                    <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>
-                    <button class="btn btn-outline-primary" type="button" ng-click="addToCart(product.id)">Добавить в корзину</button>  
+                <div class="card-footer align-items-center">
+<!--                     <p>{{product.price| currency}}</p>-->
+                <form ng-controller="cartController" class="text-center">
+<!--                    <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
+                    <button class="btn btn-outline-primary" type="button" ng-click="addToCart(product.id)">В Избранное</button>  
                 </form>
+                  </div>
+               
+           </div>
+           
+           
+           
+           
+            
             
         </div>
 <div ng-hide="priceList" class="alert alert-danger">При загрузке данных произошла ошибка {{requestStatus}} {{requestStatusText}}</div>
     </div>
 </section>
-
-
-
 
