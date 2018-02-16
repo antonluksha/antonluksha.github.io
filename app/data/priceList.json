@@ -3,7 +3,7 @@
         "id": 1,
         "category": "category1",
         "name": "Продукт 1",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 10
@@ -11,7 +11,7 @@
         "id": 2,
         "category": "category1",
         "name": "Продукт 2",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 20  
@@ -19,7 +19,7 @@
         "id": 3,
         "category": "category1",
         "name": "Продукт 3",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 30  
@@ -27,7 +27,7 @@
         "id": 4,
         "category": "category2",
         "name": "Продукт 4",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 40
@@ -35,7 +35,7 @@
         "id": 5,
         "category": "category2",
         "name": "Продукт 5",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 50 
@@ -43,7 +43,7 @@
         "id": 6,
         "category": "category2",
         "name": "Продукт 6",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 60 
@@ -51,7 +51,7 @@
         "id": 7,
         "category": "category3",
         "name": "Продукт 7",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 70
@@ -59,7 +59,7 @@
         "id": 8,
         "category": "category3",
         "name": "Продукт 8",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 80  
@@ -67,7 +67,7 @@
         "id": 9,
         "category": "category3",
         "name": "Продукт 9",
-        "img": "app/data/img/product.svg",
+        "img": "app/data/img/Mask.jpg",
         "advantage": "Lorem ipsum dolor sit amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 90  

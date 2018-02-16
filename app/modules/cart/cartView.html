@@ -37,7 +37,7 @@
             <tr ng-repeat="product in cartList">
                 <td scope="row">{{ $index + 1 }}</td>
                
-                <td><a href="/products/masks/id/{{product.id}}"><img src="{{product.img}}" alt="{{ product.name }}"></a></td>
+                <td><a href="/products/masks/id/{{product.id}}"><img src="{{product.img}}" alt="{{product.name}}"></a></td>
                 <td><a href="/products/masks/id/{{product.id}}">{{ product.name }}</a></td>
                 <td><a href="/products/masks/id/{{product.id}}">{{ product.advantage }}</a></td>
 <!--
