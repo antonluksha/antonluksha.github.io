@@ -71,11 +71,11 @@ owl-carousel {
   animation-delay : 0ms  ;
 }
 
-h4 {
+.item h4 {
   font-size: 28px;
 }
 
-p {
+.item p {
   width: 70%;
   text-align: center;
   margin: 0 auto 20px;

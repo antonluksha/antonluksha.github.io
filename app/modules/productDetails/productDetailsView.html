@@ -1,7 +1,7 @@
-<div class="container p-4 row">
+<div class="container productDetails row">
 
 
-    <div class="priceListView col-md-3 animated fadeInDown">
+    <div class="priceListView col-md-3 d-none d-md-block animated fadeInDown">
         <h5><a href="/products">Список товаров:</a></h5>
         <ul class="list-group">
             <li ng-repeat="product in priceList" class="list-group-item list-group-item-action list-group-item-light"><a href="/products/masks/id/{{product.id}}">{{product.name}}</a></li>
@@ -9,9 +9,9 @@
 
     </div>
 
-    <div class="productView col-9 row">
+    <div class="productView col-md-9 row">
 
-        <div class="col-6 animated flipInX">
+        <div class="col-md-6 align-self-center animated flipInX">
             <img src="{{ productView.img }}" alt="{{ productView.name }}">
         </div>
         <div class="col-md-6">
@@ -25,10 +25,18 @@
             <!--        <p>{{productView.price| currency}}</p>-->
             <div ng-controller="cartController">
                 <div>
-                    <button class="btn btn-outline-primary animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
+                    <button class="col align-self-center btn btn-outline-primary animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
                 </div>
                 <!--            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
 
+           
+           
+           
+           
+           
+           
+           
+           
             </div>
         </div>
 
@@ -37,6 +45,9 @@
             <p class="animated bounceInLeft">{{ productView.description }}</p>
             <!--        <p>{{productView.price| currency}}</p>-->
         </div>
+
+
+
 
 
 

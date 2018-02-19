@@ -4,3 +4,10 @@
 td img {
     height: 64px;
 }
+#order h2
+{
+    color: #212121;
+}
+#order .wi-fb-btn button {
+    background: #212121;
+}

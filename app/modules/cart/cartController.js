@@ -37,9 +37,6 @@
         
         
         
-        
-        
-        
         $scope.order = function () {
 
             

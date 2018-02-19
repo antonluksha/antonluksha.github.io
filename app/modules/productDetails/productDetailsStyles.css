@@ -1,3 +1,6 @@
+.productDetails {
+        margin-top: 100px;
+}
 .productView img {
     width: 100%;
 }
@@ -20,4 +23,8 @@
     padding: 10%;
     width: 100%;
     text-align: center;
+}
+
+.description {
+    
 }
