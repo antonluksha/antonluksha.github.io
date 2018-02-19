@@ -11,3 +11,13 @@
   -ms-animation-delay: 0s;
   -o-animation-delay: 0s; 
 }
+
+.advantage ul>li {
+    list-style-type: disc;
+}
+
+.advantage {
+    padding: 10%;
+    width: 100%;
+    text-align: center;
+}

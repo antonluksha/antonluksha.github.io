@@ -8,7 +8,7 @@
         "productListApp",
         "productDetailsApp",
         "contactsApp",
-        "deliveryApp",
+        "newsApp",
         "cartApp",
         "priceListService",
         "cartService"
@@ -42,9 +42,9 @@
         templateUrl : "/app/modules/contacts/contactsView.html",
         controller : "contactsController"
     })
-    .when("/delivery", {
-        templateUrl : "/app/modules/delivery/deliveryView.html",
-        controller : "deliveryController"
+    .when("/news", {
+        templateUrl : "/app/modules/news/newsView.html",
+        controller : "newsController"
     })    
     .when("/products/masks/id/:maskId", {
         templateUrl : "/app/modules/productDetails/productDetailsView.html",

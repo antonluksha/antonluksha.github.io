@@ -10,28 +10,38 @@
     </div>
 
     <div class="productView col-9 row">
-      
-           <div class="col-6 animated bounceIn">
+
+        <div class="col-6 animated flipInX">
             <img src="{{ productView.img }}" alt="{{ productView.name }}">
-       </div>
-       <div class="col-md-6">
-           <h2 class="display-4 text-center animated fadeInRightBig"> {{ productView.name }} </h2> 
-            <p class="animated zoomIn">{{ productView.advantage }}</p>
-            
+        </div>
+        <div class="col-md-6">
+            <h2 class="display-4 text-center animated fadeInRightBig"> {{ productView.name }} </h2>
+            <div class="advantage">
+                <ul>
+                    <li ng-repeat="advantage in productView.advantage" ng-class-odd="'animated fadeInRight'" ng-class-even="'animated fadeInLeft'">{{ advantage }}</li>
+                </ul>
+            </div>
+
             <!--        <p>{{productView.price| currency}}</p>-->
-            <p ng-controller="cartController">
-<!--            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
-            <button class="btn btn-outline-primary animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
-        </p>
-       </div>
-      
-       
-        
-        <p class="animated bounceInLeft">{{ productView.description }}</p>
-       
-<!--        <p>{{productView.price| currency}}</p>-->
-        
-        
+            <div ng-controller="cartController">
+                <div>
+                    <button class="btn btn-outline-primary animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
+                </div>
+                <!--            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
+
+            </div>
+        </div>
+
+
+        <div class="description">
+            <p class="animated bounceInLeft">{{ productView.description }}</p>
+            <!--        <p>{{productView.price| currency}}</p>-->
+        </div>
+
+
+
+
+
     </div>
 
 </div>

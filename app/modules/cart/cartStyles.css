@@ -1,3 +1,6 @@
 .modals {
     display:none;
 }
+td img {
+    height: 64px;
+}

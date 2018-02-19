@@ -4,7 +4,10 @@
         "category": "category1",
         "name": "Продукт 1",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 10
     }, {
@@ -12,7 +15,13 @@
         "category": "category1",
         "name": "Продукт 2",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика  1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика но 4",
+            "Характеристика номер 5"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 20  
     }, {
@@ -20,7 +29,12 @@
         "category": "category1",
         "name": "Продукт 3",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 30  
     }, {
@@ -28,7 +42,11 @@
         "category": "category2",
         "name": "Продукт 4",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+       "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 40
     }, {
@@ -36,7 +54,11 @@
         "category": "category2",
         "name": "Продукт 5",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 50 
     }, {
@@ -44,7 +66,11 @@
         "category": "category2",
         "name": "Продукт 6",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 60 
     }, {
@@ -52,7 +78,11 @@
         "category": "category3",
         "name": "Продукт 7",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 70
     }, {
@@ -60,7 +90,11 @@
         "category": "category3",
         "name": "Продукт 8",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 80  
     }, {
@@ -68,7 +102,11 @@
         "category": "category3",
         "name": "Продукт 9",
         "img": "app/data/img/Mask.jpg",
-        "advantage": "Lorem ipsum dolor sit amet",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 90  
     }
