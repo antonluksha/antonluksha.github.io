@@ -18,8 +18,8 @@
             <tr class="table">
                 <th colspan="5">
                     <button ng-click="order()" class="btn btn-outline-success order-link" href="#order" ng-show="cartList[0]">Консультация</button>
-                    <button class="btn btn-outline-dark" ng-click="clearCart()" ng-show="cartList[0]">Очистить Избранное</button>
-                    <span ng-hide="cartList[0]">Корзина пуста</span>
+                    <button class="btn btn-outline-secondary" ng-click="clearCart()" ng-show="cartList[0]">Очистить Избранное</button>
+                   
                 </th>
 <!--
                 <th>
@@ -48,12 +48,26 @@
                 <td>{{ product.number * product.price | currency }}</td>
 -->
                 <td>
-                    <button ng-click="remove(product.id)" class="btn btn-outline-dark">Удалить</button>
+                    <button ng-click="remove(product.id)" class="btn btn-outline-secondary">Удалить</button>
                 </td>
             </tr>
 
         </tbody>
     </table>
+    
+     <div class="empty" ng-hide="cartList[0]">
+     
+     <div class="container">
+  <div class="sign">
+      <div class="neon-blue" id="title">ПУ<span id="fade">С</span>ТО</div>
+      <div class="neon-blue">ничего не найдено<br>
+       <span class="neon-purple" id="trav">Посетите</span>
+       <span class="neon-elov">Каталог</span></div>
+   </div>
+</div>
+ <a href="/products" class="button">В Каталог</a>
+     
+     </div>
 
     <div class="modals">
 

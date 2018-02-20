@@ -1,0 +1,29 @@
+.newsList,
+.newsList .news {
+    margin: 10px;
+}
+.newsList .news{
+/*
+    overflow: hidden;
+    height: 240px;
+*/
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2), 0 0px 1px rgba(0,0,0,0.5);
+}
+.newsList img {
+    margin: 10px;
+    width: 100%;
+}
+.newsList .news .btn-shiny{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+

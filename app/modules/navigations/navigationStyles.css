@@ -301,7 +301,7 @@ p {
     content: '';
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
-    background-color: #666;
+    background-color: #00c7ec;
     width: 0;
 }
 
@@ -317,7 +317,7 @@ p {
 
 .snip1217 a:hover,
 .snip1217 .current a {
-    color: #212121;
+    color: #00c7ec;
 }
 
 .snip1217 a:hover:before,

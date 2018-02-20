@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name": "Статья 1",
+        "img": "app/data/img/Mask.jpg",
+        "url": "/app/data/news/news1.html",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?"
+    }, {
+        "id": 2,
+        "name": "Статья 2",
+        "img": "app/data/img/Mask.jpg",
+         "url": "/app/data/news/news2.html",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, volupta"
+    }, {
+        "id": 3,
+        "name": "Статья 3",
+        "img": "app/data/img/Mask.jpg",
+        "url": "/app/data/news/news3.html",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?"
+    }
+]

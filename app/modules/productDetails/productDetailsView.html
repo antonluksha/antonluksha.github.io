@@ -2,9 +2,10 @@
 
 
     <div class="priceListView col-md-3 d-none d-md-block animated fadeInDown">
-        <h5><a href="/products">Список товаров:</a></h5>
+        <h5><a class="col align-self-center btn-shiny" href="/products"><i class="fas fa-chevron-left"></i> Каталог</a></h5>
+        <h6>{{productView.category}}</h6>
         <ul class="list-group">
-            <li ng-repeat="product in priceList" class="list-group-item list-group-item-action list-group-item-light"><a href="/products/masks/id/{{product.id}}">{{product.name}}</a></li>
+            <li ng-repeat="product in priceList | filter: productView.category" class="list-group-item list-group-item-action list-group-item-light"><a href="/products/masks/id/{{product.id}}">{{product.name}}</a></li>
         </ul>
 
     </div>
@@ -25,7 +26,7 @@
             <!--        <p>{{productView.price| currency}}</p>-->
             <div ng-controller="cartController">
                 <div>
-                    <button class="col align-self-center btn btn-outline-primary animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
+                    <button class="col align-self-center btn-shiny animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
                 </div>
                 <!--            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
 
