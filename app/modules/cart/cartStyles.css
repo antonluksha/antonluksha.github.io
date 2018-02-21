@@ -4,6 +4,7 @@
 
 td img {
     height: 64px;
+    border-radius: 5px;
 }
 
 #order h2 {

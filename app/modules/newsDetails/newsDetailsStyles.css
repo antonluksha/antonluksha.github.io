@@ -1,33 +1,4 @@
-.productDetails {
-        margin-top: 100px;
-}
-.productView img {
-    width: 100%;
-}
-.animated{
- -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  -ms-animation-duration: 1s;
-  -o-animation-duration: 1s; 
-    -webkit-animation-delay: 0s;
-    -moz-animation-delay: 0s;
-  -ms-animation-delay: 0s;
-  -o-animation-delay: 0s; 
-}
 
-.advantage ul>li {
-    list-style-type: disc;
-}
-
-.advantage {
-    padding: 10%;
-    width: 100%;
-    text-align: center;
-}
-
-.description {
-    
-}
 
 
 

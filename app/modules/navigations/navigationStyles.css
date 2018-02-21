@@ -382,7 +382,7 @@ p {
 
     .main-nav li a:hover,
     .main-nav li span:hover {
-        color: darkcyan;
+        color: #00c7ec;
         border-bottom: none;
     }
 
@@ -1233,6 +1233,7 @@ p {
 
 
 .scrollup {
+    z-index: 2;
     position: fixed;
     display: none;
     font-size: 20px;

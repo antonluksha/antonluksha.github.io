@@ -1,4 +1,4 @@
-owl-carousel {
+.owl-carousel {
     z-index: inherit;
 }
 
@@ -58,12 +58,15 @@ owl-carousel {
 
 /* CSS FOR DEMO ONLY */
 
-.animated {
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-
-    -webkit-animation-delay: 500ms;
-    animation-delay: 500ms;
+.animated{
+ -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s; 
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+  -ms-animation-delay: 0s;
+  -o-animation-delay: 0s; 
 }
 
 .animate-out {
@@ -107,16 +110,13 @@ owl-carousel {
 }
 
 #liderSlider .item {
-    margin: 0 10px;
-    height: 240px;
-    width: 100%;
     padding-bottom: 20px;
     display: table-cell;
     vertical-align: bottom;
     text-align: center;
 }
 #liderSlider .img {
-    width: 100%
+    width: 10%
 }
 
 

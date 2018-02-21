@@ -4,28 +4,24 @@
 .productView img {
     width: 100%;
 }
-.animated{
- -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  -ms-animation-duration: 1s;
-  -o-animation-duration: 1s; 
-    -webkit-animation-delay: 0s;
-    -moz-animation-delay: 0s;
-  -ms-animation-delay: 0s;
-  -o-animation-delay: 0s; 
-}
 
-.advantage ul>li {
+.productDetails .advantage ul>li {
     list-style-type: disc;
 }
 
-.advantage {
+.productDetails .advantage {
+/*
     padding: 10%;
     width: 100%;
     text-align: center;
+*/
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+    width: fit-content;
 }
 
-.description {
+.productDetails .description {
     
 }
 

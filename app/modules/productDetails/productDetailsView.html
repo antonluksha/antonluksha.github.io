@@ -16,17 +16,17 @@
             <img src="{{ productView.img }}" alt="{{ productView.name }}">
         </div>
         <div class="col-md-6">
-            <h2 class="display-4 text-center animated fadeInRightBig"> {{ productView.name }} </h2>
+            <h2 class="display-4 text-center animated bounceInDown"> {{ productView.name }} </h2>
             <div class="advantage">
                 <ul>
-                    <li ng-repeat="advantage in productView.advantage" ng-class-odd="'animated fadeInRight'" ng-class-even="'animated fadeInLeft'">{{ advantage }}</li>
+                    <li ng-repeat="advantage in productView.advantage" ng-class-odd="'animated zoomInUp'" ng-class-even="'animated zoomInDown'">{{ advantage }}</li>
                 </ul>
             </div>
 
             <!--        <p>{{productView.price| currency}}</p>-->
             <div ng-controller="cartController">
                 <div>
-                    <button class="col align-self-center btn-shiny animated fadeInDown" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
+                    <button class="col align-self-center btn-shiny animated zoomIn" type="button" ng-click="addToCart(productView.id)">Добавить в избранное</button>
                 </div>
                 <!--            <input ng-model="productNum" type="number" min="0" max="99" placeholder="0" pattern="^[1-9]\d*$" required>-->
 
