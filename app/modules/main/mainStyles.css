@@ -28,7 +28,7 @@
 .owl-dots {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     text-align: center;
     padding-bottom: 10px;
@@ -37,15 +37,16 @@
 .owl-dot {
     display: inline-block;
     padding: 0 10px;
-    opacity: .55;
+    opacity: .75;
 }
 
 .owl-dots span {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: #eee;
+    background: #fff;
     border-radius: 50%;
+    border: 1px solid #666;
     transition: background-color 0.25s;
 }
 
@@ -79,7 +80,7 @@
 }
 
 #mainSlider .item p {
-    width: 70%;
+    padding: 10px;
     text-align: center;
     margin: 0 auto 20px;
 }
@@ -89,12 +90,23 @@
 }
 
 #mainSlider .item {
-    height: 80vh;
     padding-bottom: 20px;
-    background-color: #fc0;
     display: table-cell;
+    position: relative;
+    
     vertical-align: bottom;
     text-align: center;
+}
+#mainSlider .sliderContent {
+    position: absolute;
+    bottom: 45px;
+    padding: 0px 15%;
+}
+#mainSlider .sliderText {
+    background-color: #ffffffc2;
+    border-radius: 10px;
+    border: 1px solid #666;
+    padding-top: 10px;
 }
 
 #mainSlider .btn {
@@ -115,8 +127,8 @@
     vertical-align: bottom;
     text-align: center;
 }
-#liderSlider .img {
-    width: 10%
+#liderSlider img {
+    border-radius: 10px;
 }
 
 
@@ -200,4 +212,21 @@
     -webkit-transition: top .6s ease-in-out .3s;
     -moz-transition: top .6s ease-in-out .3s;
     transition: top .6s ease-in-out .3s;
+}
+/*=========================   oter  ======================*/
+.info {
+    padding: 0;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.info ul {
+        margin-bottom: 30px;
+}
+.mainView img,
+.mainView h3,
+.mainView h4 {
+    margin: 40px 0;
 }

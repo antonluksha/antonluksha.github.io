@@ -79,7 +79,7 @@
         
         $scope.addToCart = function (id) {
             var sum = Number($scope.productNum);
-            if (!sum) {                                                 // sum > 0 ===========================!!!
+//            if (sum > 0) {                                                 // sum > 0 ===========================!!!
                 $scope.cartList = cartService.readCart();
                 priceListService.getProductById(id)
                     .then(function (cartProductToAdd) {
@@ -94,9 +94,9 @@
                         numGoods();
                         cartPriceSum();
                     });
-            } else {
-                alert('Введите количество');
-            }
+//            } else {
+//                alert('Введите количество');
+//            }
         };
 
         $scope.changeCart = function (id, sum) {

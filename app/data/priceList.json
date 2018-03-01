@@ -13,6 +13,7 @@
     }, {
         "id": 2,
         "category": "Уход за кожей лица",
+        "subCategory": "123",
         "name": "Продукт 2",
         "img": "app/data/img/Mask.jpg",
         "advantage": [
@@ -40,6 +41,7 @@
     }, {
         "id": 4,
         "category": "Уход за кожей вокруг глаз",
+        "subCategory": "222",
         "name": "Продукт 4",
         "img": "app/data/img/Mask.jpg",
        "advantage": [
@@ -52,6 +54,7 @@
     }, {
         "id": 5,
         "category": "Уход за кожей вокруг глаз",
+        "subCategory": "333",
         "name": "Продукт 5",
         "img": "app/data/img/Mask.jpg",
         "advantage": [
@@ -64,6 +67,7 @@
     }, {
         "id": 6,
         "category": "Уход за кожей вокруг глаз",
+        "subCategory": "222",
         "name": "Продукт 6",
         "img": "app/data/img/Mask.jpg",
         "advantage": [
