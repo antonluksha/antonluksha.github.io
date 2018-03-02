@@ -1,24 +1,22 @@
+<img class="img-fluid rounded mx-auto d-block" src="/app/data/img/news.jpg" alt="Asian Beauty">
 <div class="container">
     <h2 class="display-3 text-center">Статьи</h2>
 
 
     <div class="newsList">
         <div class="news row animated zoomIn" ng-repeat="news in newsList">
-
             <div class="col-md-3 col-sm-6">
                 <a href="/news/id/{{news.id}}">
                 <img src="{{news.img}}" alt="{{news.name}}">
                 </a>
             </div>
             <dib class="col-md-9 col-sm-6">
-                    <h4>{{news.name}}</h4>
-                   <p>
-                       {{news.description}}
-                   </p>
-                   <a class="col-md-4 btn-shiny" href="/news/id/{{news.id}}">Подробнее...</a>
+                <h4>{{news.name}}</h4>
+                <p>
+                    {{news.description}}
+                </p>
+                <a class="col-md-4 btn-shiny" href="/news/id/{{news.id}}">Подробнее...</a>
             </dib>
-
-
 
 
 
@@ -27,6 +25,6 @@
         <div ng-hide="newsList" class="alert alert-info">
             <div class="loader">Загрузка...</div>
         </div>
-        
+
     </div>
 </div>

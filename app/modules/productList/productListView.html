@@ -4,20 +4,20 @@
    
     <h2 class="display-3 text-center">Маски для лица</h2>
 
-    <form class="form-row m-4">
+    <form class="form-row mr-4 ml-4">
 
-        <div class="btn-group  col-md-4" role="group">
+        <div class="btn-group  col-md-4  mb-2" role="group">
             <button ng-click="listView()" type="button" class="listView btn btn-outline-secondary"><i class="fa fa-bars"></i> Список</button>
             <button ng-click="gridView()" type="button" class="gridView btn btn-outline-secondary active"><i class="fa fa-th-large"></i> Плитка</button>
         </div>
 
-        <div class="input-group col-md-4">
+        <div class="input-group col-md-4 mb-2">
             <select ng-model="priceSearch.category" ng-change="subCategorysList(priceSearch.category)" class="form-control">
             <option value=""> - Все Категории - </option>
             <option ng-repeat="categoryName in categorySort">{{categoryName}}</option>
             </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-2">
             <input ng-model="priceSearch.$" type="text" class="form-control" placeholder="Поиск...">
         </div>
 
@@ -25,21 +25,23 @@
     <!--    ================================================================-->
 
 
-
-    <div  ng-repeat="sub in subCategorySort">
+<din class="row mr-4 ml-4">
+     <div class="col-md-4 offset-md-4" ng-repeat="sub in subCategorySort">
         <input type="checkbox" ng-model="SubFilter[sub]" checklist-value="sub"> {{sub}}
     </div>
+</din>
+   
 
 
 
     <!--=====================================================================-->
 
-    <div class="priceList row justify-content-around">
+    <div class="priceList row justify-content-around mt-2">
 
 
         <div class="product animated" ng-repeat="product in (priceList | filter: filterSubByCategory) | filter: priceSearch" ng-init="viewType()">
             <!--           <a href=""><div class="btnFav"></div></a>-->
-            <div class="row productCard">
+            <div class="row productCard" ng-class="{animated:hover, pulse: hover, shadow: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
                 <div class="productImg">
                     <a href="/products/masks/id/{{product.id}}">
                 <img class="w-100" src="{{product.img}}" alt="{{product.name}}">

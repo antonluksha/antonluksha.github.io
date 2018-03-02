@@ -20,7 +20,7 @@
 			<li><a href="/news">Статьи</a></li>
 <!--			<li><a href="/about">О нас</a></li>-->
 			<li><a href="/contacts">Контакты</a></li>
-			<li  ng-controller="cartController"><a href="/cart">Избранное {{goods}}</a></li>
+			<li  ng-controller="cartController"><a href="/cart">Избранное <span ng-show="goods>0">{{goods}}</span></a></li>
 		</ul>
 		
 	</div>
