@@ -329,7 +329,7 @@ p {
 
 /* Tablet and Mobile View */
 
-@media (max-width: 1131px) {
+@media (max-width: 1024px) {
     .site-logo {
         font-size: 1.5rem;
         flex-grow: 1;

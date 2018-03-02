@@ -1,4 +1,7 @@
-<section class="container">
+ <img class="img-fluid rounded mx-auto d-block" src="/app/data/img/shop2.jpg" alt="Asian Beauty">
+  <section class="container">
+   
+   
     <h2 class="display-3 text-center">Маски для лица</h2>
 
     <form class="form-row m-4">
@@ -48,8 +51,11 @@
 
 
                     <!--                        <a class="btn btn-outline-primary" href="/products/masks/id/{{product.id}}">Подробней...</a>-->
-                    <button class="btn btn-outline-primary" type="button" ng-controller="cartController" ng-click="addToCart(product.id)">В Избранное</button>
-
+               
+<!--                    <button ng-show="productAdvantage" class="col align-self-center btn-shiny" type="button" ng-controller="cartController" ng-click="addToCart(product.id)">В Избранное</button>-->
+                     <a ng-show="productAdvantage" class="col align-self-center btn-shiny" href="/products/masks/id/{{product.id}}">Подробнее...</a>
+                    
+                 
 
 
                 </div>
