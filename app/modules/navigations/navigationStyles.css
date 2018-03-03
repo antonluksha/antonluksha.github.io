@@ -300,7 +300,7 @@ p {
     content: '';
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
-    background-color: #00c7ec;
+    background-color: #121212;
     width: 0;
 }
 
@@ -316,7 +316,7 @@ p {
 
 .snip1217 a:hover,
 .snip1217 .current a {
-    color: #00c7ec;
+    color: #E91E63;
 }
 
 .snip1217 a:hover:before,
@@ -383,7 +383,7 @@ p {
 
     .main-nav li a:hover,
     .main-nav li span:hover {
-        color: #00c7ec;
+        color: #E91E63;
         border-bottom: none;
     }
 

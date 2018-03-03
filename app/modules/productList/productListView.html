@@ -7,8 +7,8 @@
     <form class="form-row mr-4 ml-4">
 
         <div class="btn-group  col-md-4  mb-2" role="group">
-            <button ng-click="listView()" type="button" class="listView btn btn-outline-secondary"><i class="fa fa-bars"></i> Список</button>
-            <button ng-click="gridView()" type="button" class="gridView btn btn-outline-secondary active"><i class="fa fa-th-large"></i> Плитка</button>
+            <button ng-click="listView()" type="button" class="listView btn btn-outline-dark"><i class="fa fa-bars"></i> Список</button>
+            <button ng-click="gridView()" type="button" class="gridView btn btn-outline-dark active"><i class="fa fa-th-large"></i> Плитка</button>
         </div>
 
         <div class="input-group col-md-4 mb-2">
@@ -33,13 +33,12 @@
    
 
 
-
     <!--=====================================================================-->
 
     <div class="priceList row justify-content-around mt-2">
 
 
-        <div class="product animated" ng-repeat="product in (priceList | filter: filterSubByCategory) | filter: priceSearch" ng-init="viewType()">
+        <div class="product" ng-repeat="product in (priceList | filter: filterSubByCategory) | filter: priceSearch" ng-init="viewType()">
             <!--           <a href=""><div class="btnFav"></div></a>-->
             <div class="row productCard" ng-class="{animated:hover, pulse: hover, shadow: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
                 <div class="productImg">

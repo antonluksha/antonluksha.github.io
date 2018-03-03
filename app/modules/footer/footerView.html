@@ -1,3 +1,7 @@
+<!--
+<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+<script src="//yastatic.net/share2/share.js"></script>
+-->
 <footer>
     <div class="container">
 
@@ -25,6 +29,9 @@
                     <!--              <a class="btn odnoklassniki" href="#"><i class="fab fa-odnoklassniki"></i></a>-->
 
                 </div>
+                
+               <h6>Делитесь с друзьями:</h6>
+            <div id="footerShare" class="ya-share2 justify-content-around row" data-services="vkontakte,facebook,odnoklassniki,moimir,gplus,twitter,viber" data-counter=""></div>
             </div>
             <div class="col-md-4">
                 <h6>Контакты</h6>
@@ -50,3 +57,7 @@
     </div>
 
 </footer>
+<script>
+var footerShareBlock = document.getElementById("footerShare");
+var footerShareBlockInit = Ya.share2(footerShareBlock, {});
+</script>

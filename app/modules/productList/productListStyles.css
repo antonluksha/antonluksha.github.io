@@ -22,10 +22,10 @@
 .productText {
     width: 100%;
 }
-.listView.show>.btn-outline-secondary.dropdown-toggle,
-.gridView.show>.btn-outline-secondary.dropdown-toggle,
-.gridView.btn-outline-secondary:not([disabled]):not(.disabled).active,
-.listView.btn-outline-secondary:not([disabled]):not(.disabled).active {
+.listView.show>.btn-outline-dark.dropdown-toggle,
+.gridView.show>.btn-outline-dark.dropdown-toggle,
+.gridView.btn-outline-dark:not([disabled]):not(.disabled).active,
+.listView.btn-outline-dark:not([disabled]):not(.disabled).active {
     box-shadow: none;
 }
 

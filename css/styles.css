@@ -2,6 +2,19 @@ body {
     
     
 }
+
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #ced4da;
+}
+
+
+
 /*========================button===============*/
 .btn-shiny {
   text-decoration: none;
@@ -15,8 +28,8 @@ body {
   display: inline-block;
   position: relative;
   text-align: center;
-  color: #00c7ec;
-  border: 1px solid #00c7ec;
+  color: #212121;
+  border: 1px solid #212121;
   border-radius: 5px;
 /*  line-height: 3em;*/
     padding: 10px 20px;
@@ -32,8 +45,8 @@ body {
 .btn-shiny:hover {
   color: white;
     text-decoration:none;
-  box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
-  background-color: #00c7ec;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+  background-color: #212121;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

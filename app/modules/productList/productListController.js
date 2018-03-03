@@ -61,14 +61,14 @@
             $(".product").addClass("col-12 slideInUp");
             $(".productImg").addClass("col-sm-6 col-md-4");
             $(".productText").addClass("col-sm-6 col-md-8");
-            $(".product").removeClass("col-lg-3 col-md-4 col-sm-6 text-center zoomIn");
+            $(".product").removeClass("col-lg-3 col-md-4 col-sm-6 text-center");
             $(".gridView").removeClass("active");
             $(".listView").addClass("active");
             $scope.productAdvantage = true;
         };
 
         $scope.gridView = function () {
-            $(".product").addClass("col-lg-3 col-md-4 col-sm-6 text-center zoomIn");
+            $(".product").addClass("col-lg-3 col-md-4 col-sm-6 text-center");
             $(".productImg").removeClass("col-sm-6 col-md-4");
             $(".productText").removeClass("col-sm-6 col-md-8");
             $(".product").removeClass("col-12 slideInUp");
