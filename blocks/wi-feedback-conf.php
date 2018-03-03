@@ -1,7 +1,7 @@
 <?php
 
-$mail_addr  = 'info@domain.by';
-$mail_topic = 'Поступила заявка с сайта lp.by';
+$mail_addr  = 'nkk.taiwan@gmail.com';
+$mail_topic = 'Поступила заявка с сайта';
 $mail_from  = 'informer@lp.by';
 $mail_text  = '';
 

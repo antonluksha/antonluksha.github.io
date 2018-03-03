@@ -1,6 +1,6 @@
 (function () {
-    var productDetailsApp = angular.module('productDetailsApp', []);
-    productDetailsApp.controller('productDetailsController', function ($scope, $routeParams, priceListService) {
+    var productDetailsApp = angular.module('productDetailsApp', ["720kb.socialshare"]);
+    productDetailsApp.controller('productDetailsController', function ($scope, $routeParams, $location, priceListService) {
        
         priceListService.getData()
             .then(function (priceList) {
@@ -13,9 +13,7 @@
                 $scope.productView = productView;
             });
 
-  
-        
-        
+    $scope.productUrl = $location.url();
         
         
         
