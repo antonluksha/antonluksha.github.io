@@ -23,16 +23,11 @@
 
     </form>
     <!--    ================================================================-->
-
-
 <din class="row mr-4 ml-4">
      <div class="col-md-4 offset-md-4" ng-repeat="sub in subCategorySort">
         <input type="checkbox" ng-model="SubFilter[sub]" checklist-value="sub"> {{sub}}
     </div>
 </din>
-   
-
-
     <!--=====================================================================-->
 
     <div class="priceList row justify-content-around mt-2">
@@ -54,7 +49,7 @@
                     <!--                        <a class="btn btn-outline-primary" href="/products/masks/id/{{product.id}}">Подробней...</a>-->
                
 <!--                    <button ng-show="productAdvantage" class="col align-self-center btn-shiny" type="button" ng-controller="cartController" ng-click="addToCart(product.id)">В Избранное</button>-->
-                     <a ng-show="productAdvantage" class="col align-self-center btn-shiny" href="/products/masks/id/{{product.id}}">Подробнее...</a>
+                     <a ng-show="productAdvantage" class="float-right align-self-center btn-shiny" href="/products/masks/id/{{product.id}}">Подробнее...</a>
                     
                  
 

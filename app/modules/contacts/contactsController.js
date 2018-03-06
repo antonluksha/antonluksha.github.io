@@ -7,7 +7,7 @@
             $('#contactsFeedback').wiFeedBack({
                 fbScript: 'blocks/wi-feedback.php',
                 fbLink: false,
-                fbColor: '#212121'
+                fbColor: '#121212'
             });
             
             

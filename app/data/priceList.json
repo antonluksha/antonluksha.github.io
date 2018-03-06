@@ -2,8 +2,9 @@
     {
         "id": 1,
         "category": "Уход за кожей лица",
-        "name": "Продукт 1",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "Forest Beauty",
+        "name": "Horse Chestnut Shooting Mask",
+        "img": "app/data/img/Sooting.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2"
@@ -13,9 +14,9 @@
     }, {
         "id": 2,
         "category": "Уход за кожей лица",
-        "subCategory": "123",
-        "name": "Продукт 2",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "Forest Beauty",
+        "name": "France Rose & Pearl Whitening Mask",
+        "img": "app/data/img/Whitening.jpg",
         "advantage": [
             "Характеристика  1",
             "Характеристика номер 2",
@@ -28,8 +29,9 @@
     }, {
         "id": 3,
         "category": "Уход за кожей лица",
-        "name": "Продукт 3",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "Forest Beauty",
+        "name": "Shea Butter Moisturizing Mask",
+        "img": "app/data/img/Moisturizing.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -40,10 +42,122 @@
         "price": 30  
     }, {
         "id": 4,
+        "category": "Уход за кожей лица",
+        "subCategory": "Forest Beauty",
+        "name": "Pomegranate Anti-Ageing Mask",
+        "img": "app/data/img/Anti-Ageing.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 5,
+        "category": "Уход за кожей лица",
+        "subCategory": "Nano-Gold & Silver",
+        "name": "Nano-Gold Foil Royal Jelly Advanced Hydration Mask",
+        "img": "app/data/img/Goild Foil Advanced Hydration.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 6,
+        "category": "Уход за кожей лица",
+        "subCategory": "Nano-Gold & Silver",
+        "name": "Nano-Gold Foil Royal Jelly Rejuvenating Mask",
+        "img": "app/data/img/Gold Foil Rejuvenating.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 7,
+        "category": "Уход за кожей лица",
+        "subCategory": "Nano-Gold & Silver",
+        "name": "Luxurious Silver Foil Swiss Ice Wine Firming & Lifiting Mask",
+        "img": "app/data/img/Silver Foil Firming & Lifiting.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 8,
+        "category": "Уход за кожей лица",
+        "subCategory": "Nano-Gold & Silver",
+        "name": "Luxurious Silver Foil Swiss Ice Wine Moisture Boost Mask",
+        "img": "app/data/img/Silver Foil Moisture Boost.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 9,
+        "category": "Уход за кожей лица",
+        "subCategory": "E.L.G INTERNATIONAL",
+        "name": "Snail Polypeptide Anti-Wrinkle Face Mask",
+        "img": "app/data/img/Snail polypeptide anti-wrinkle face mask.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 10,
+        "category": "Уход за кожей лица",
+        "subCategory": "E.L.G INTERNATIONAL",
+        "name": "Snail And Bird's Nest Extract Collagen Face Mask",
+        "img": "app/data/img/Snail and bird's nest extract collagen face mask.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 11,
+        "category": "Уход за кожей лица",
+        "subCategory": "E.L.G INTERNATIONAL",
+        "name": "Snail Hyaluronic Acid Moisturizing Face Mask",
+        "img": "app/data/img/Snail hyaluronic acid moisturizing face mask.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3",
+            "Характеристика номер 4"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 30  
+    }, {
+        "id": 12,
         "category": "Уход за кожей вокруг глаз",
-        "subCategory": "222",
-        "name": "Продукт 4",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "",
+        "name": "Blue Algae Repairing Collagen Eye Mask",
+        "img": "app/data/img/seaweed.jpg",
        "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -52,11 +166,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 40
     }, {
-        "id": 5,
+        "id": 13,
         "category": "Уход за кожей вокруг глаз",
-        "subCategory": "333",
-        "name": "Продукт 5",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "",
+        "name": "Perl Hydrating Collagen Eye Mask",
+        "img": "app/data/img/Pearl.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -65,11 +179,11 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 50 
     }, {
-        "id": 6,
+        "id": 14,
         "category": "Уход за кожей вокруг глаз",
-        "subCategory": "222",
-        "name": "Продукт 6",
-        "img": "app/data/img/Mask.jpg",
+        "subCategory": "",
+        "name": "Luxury Gold Collagen Eye Mask",
+        "img": "app/data/img/Gold.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -78,10 +192,10 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 60 
     }, {
-        "id": 7,
-        "category": "Уход за губами",
-        "name": "Продукт 7",
-        "img": "app/data/img/Mask.jpg",
+        "id": 15,
+        "category": "Уход за кожей вокруг глаз",
+        "name": "Luxury Ruby Collagen Eye Mask",
+        "img": "app/data/img/Ruby.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -90,10 +204,23 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 70
     }, {
-        "id": 8,
+        "id": 16,
+        "category": "Уход за кожей вокруг глаз",
+        "subCategory": "",
+        "name": "Active Peptide Water Collagen Eye Jelly Mask",
+        "img": "app/data/img/Peptide Water.jpg",
+        "advantage": [
+            "Характеристика номер 1",
+            "Характеристика номер 2",
+            "Характеристика номер 3"
+        ],
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
+        "price": 50 
+    }, {
+        "id": 17,
         "category": "Уход за губами",
-        "name": "Продукт 8",
-        "img": "app/data/img/Mask.jpg",
+        "name": "Lip Mask №1",
+        "img": "app/data/img/lipMask1.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",
@@ -102,10 +229,10 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolorum nihil iste porro sed molestiae recusandae dolores atque laudantium, quidem magnam nemo, voluptatem   minima facilis, illum maiores molestias reprehenderit beatae?",
         "price": 80  
     }, {
-        "id": 9,
+        "id": 18,
         "category": "Уход за губами",
-        "name": "Продукт 9",
-        "img": "app/data/img/Mask.jpg",
+        "name": "Lip Mask №2",
+        "img": "app/data/img/lipMask2.jpg",
         "advantage": [
             "Характеристика номер 1",
             "Характеристика номер 2",

@@ -316,7 +316,7 @@ p {
 
 .snip1217 a:hover,
 .snip1217 .current a {
-    color: #E91E63;
+    color: #ff6284 ;
 }
 
 .snip1217 a:hover:before,
@@ -383,7 +383,7 @@ p {
 
     .main-nav li a:hover,
     .main-nav li span:hover {
-        color: #E91E63;
+        color: #ff6284 ;
         border-bottom: none;
     }
 

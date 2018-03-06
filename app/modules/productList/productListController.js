@@ -59,8 +59,8 @@
 
         $scope.listView = function () {
             $(".product").addClass("col-12 slideInUp");
-            $(".productImg").addClass("col-sm-6 col-md-4");
-            $(".productText").addClass("col-sm-6 col-md-8");
+            $(".productImg").addClass("col-sm-6 col-md-4 col-lg-2");
+            $(".productText").addClass("col-sm-6 col-md-8 col-lg-10");
             $(".product").removeClass("col-lg-3 col-md-4 col-sm-6 text-center");
             $(".gridView").removeClass("active");
             $(".listView").addClass("active");
@@ -69,8 +69,8 @@
 
         $scope.gridView = function () {
             $(".product").addClass("col-lg-3 col-md-4 col-sm-6 text-center");
-            $(".productImg").removeClass("col-sm-6 col-md-4");
-            $(".productText").removeClass("col-sm-6 col-md-8");
+            $(".productImg").removeClass("col-sm-6 col-md-4 col-lg-2");
+            $(".productText").removeClass("col-sm-6 col-md-8 col-lg-10");
             $(".product").removeClass("col-12 slideInUp");
             $(".listView").removeClass("active");
             $(".gridView").addClass("active");

@@ -18,7 +18,7 @@
         <tfoot>
             <tr class="table">
                 <th colspan="5">
-                    <button ng-click="order()" class="btn btn-outline-success order-link" href="#order" ng-show="cartList[0]">Консультация</button>
+<!--                    <button ng-click="order()" class="btn btn-outline-success order-link" href="#order" ng-show="cartList[0]">Консультация</button>-->
                     <button class="btn btn-outline-secondary" ng-click="clearCart()" ng-show="cartList[0]">Очистить Избранное</button>
                    
                 </th>
@@ -59,17 +59,17 @@
      <div class="empty" ng-hide="cartList[0]">
      
 <div class="alert alert-secondary" role="alert">
-  <h4 class="alert-heading">В избранном еще ничего нет</h4>
+  <h4 class="alert-heading">В избранном ничего нет</h4>
   <p>Со всей продукцие Вы можите ознакомится в каталоге</p>
   <hr>
-  <p class="mb-0"><a href="/products">Перейти в Каталог</a></p>
+  <p class="mb-0 alert-link"><a href="/products">Перейти в Каталог</a></p>
 </div>
      
      </div>
 
-    <div class="modals">
+<!--    <div class="modals">-->
 
-        <div id="order">
+<!--        <div id="order">-->
 <!--
            <h2>Консультация</h2>
             <div class="row">   
@@ -86,13 +86,13 @@
                 </div>
             </div>
 -->
-             <h2>Консультация</h2>
-             <h5>Заполните контактные данные для консультации:</h5>
-                    <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." required/>
-                    <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required/>
-                    <textarea name="message" maxlength="500" data-wi-fb-caption="Коментарий" placeholder="Коментарий..."></textarea>
-            <button ng-click="clearCart()">Консультация</button>
-        </div>
+<!--             <h2>Консультация</h2>-->
+<!--             <h5>Заполните контактные данные для консультации:</h5>-->
+<!--                    <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." required/>-->
+<!--                    <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон..." required/>-->
+<!--                    <textarea name="message" maxlength="500" data-wi-fb-caption="Коментарий" placeholder="Коментарий..."></textarea>-->
+<!--            <button ng-click="clearCart()">Консультация</button>-->
+<!--        </div>-->
 
 
     </div>
